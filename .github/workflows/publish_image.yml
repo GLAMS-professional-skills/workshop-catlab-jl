@@ -6,7 +6,9 @@ permissions:
 on:
   push:
     branches:
-      - "*"
+      - "main"
+    paths:
+      - ".docker/*"
 
 jobs:
   docker_publish:
