@@ -8,6 +8,9 @@
 				"ms-toolsai.jupyter",
 				"julialang.language-julia"
 			]
+		},
+		"codespaces": {
+			"openFiles": ["working_files/notebook.ipynb"]
 		}
 	},
 	"containerEnv": {
