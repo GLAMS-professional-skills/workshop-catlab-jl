@@ -1,0 +1,15 @@
+{
+	"name": "Julia Catlab",
+	"dockerFile": "../.docker/Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.jupyter",
+				"julialang.language-julia"
+			]
+		}
+	},
+	"containerEnv": {
+		"SHELL": "/bin/bash"
+	}
+}
