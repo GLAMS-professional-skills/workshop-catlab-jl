@@ -1,6 +1,7 @@
 {
 	"name": "Julia Catlab",
-	"dockerFile": "../.docker/Dockerfile",
+	//"dockerFile": "../.docker/Dockerfile",
+	"image": "ghcr.io/glams-professional-skills/glams-professional-skills/workshop-catlab-jl:main",
 	"customizations": {
 		"vscode": {
 			"extensions": [
