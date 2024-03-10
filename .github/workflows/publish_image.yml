@@ -24,3 +24,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           image_tag: ${{ github.ref_name }} # Match branch name for risk-free testing
           dockerfile: .docker/Dockerfile
+          context: .docker
