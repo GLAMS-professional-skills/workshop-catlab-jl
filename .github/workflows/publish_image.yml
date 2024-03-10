@@ -20,7 +20,7 @@ jobs:
         uses: macbre/push-to-ghcr@master
         with:
           image_name: ${{ github.repository }}  # it will be lowercased internally
-          repository: ghcr.io/uoe-som-professional-skils
+          repository: ghcr.io/GLAMS-professional-skills
           github_token: ${{ secrets.GITHUB_TOKEN }}
           image_tag: ${{ github.ref_name }} # Match branch name for risk-free testing
           dockerfile: .docker/Dockerfile
