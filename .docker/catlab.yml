@@ -1,0 +1,8 @@
+# No longer used, will likely be deleted
+name: catlab
+channels:
+    - conda-forge
+dependencies:
+    - graphviz
+    - julia
+    - notebook

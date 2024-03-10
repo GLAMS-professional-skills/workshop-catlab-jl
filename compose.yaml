@@ -1,0 +1,8 @@
+services:
+  catlabjl-nb:
+    build: .docker
+    command: jupyter notebook --ip 0.0.0.0 --allow-root /root/workdir
+    ports:
+      - 8888:8888
+    volumes:
+      - "./working_files:/root/workdir"
