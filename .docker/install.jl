@@ -1,4 +1,4 @@
 using Pkg
-packages = ["Catlab", "IJulia", "Compose"]
+packages = ["Catlab", "IJulia", "Compose", "GATlab", "DataStructures", "PrettyTables", "LaTeXStrings"]
 Pkg.add(packages)
-using Catlab, IJulia, Compose
+using Catlab, IJulia, Compose, GATlab, DataStructures, PrettyTables, LaTeXStrings
